@@ -1,0 +1,228 @@
+@media screen and (max-width: 991px) {
+  .hero .head-text h1 {
+    font-size: 80px;
+    word-spacing: 6px;
+  }
+  .hero .image {
+    width: 50%;
+  }
+
+  .hero {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .true {
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .true .left {
+    width: 100%;
+  }
+  .true .right {
+    width: 100%;
+    gap: 20px;
+  }
+
+  .true .right h2 {
+    font-size: 70px;
+  }
+  .true .right p {
+    font-size: 23px;
+    line-height: 31px;
+  }
+  #primary-button {
+    padding: 19px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: 900;
+    transition: 0.5s;
+  }
+  .why-cont {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  .why-cont h2:first-child {
+    font-size: 100px;
+  }
+  .why-cont #diff p {
+    font-size: 60px;
+  }
+  .why-cont .cards {
+    margin-top: 30px;
+  }
+  .why-cont .cards .card1 .image {
+    width: 40%;
+    margin-left: -20px;
+    filter: drop-shadow(17px 18px 5px 0px rgba(0, 0, 0, 0.75));
+  }
+  .why-cont .cards .up-card {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  .why-cont .cards .up-card .card1 {
+    width: 90%;
+    padding: 19px;
+  }
+  #image {
+    width: 70%;
+  }
+  #change {
+    flex-direction: column-reverse;
+    padding-top: 50px !important;
+    padding-bottom: 69px !important;
+  }
+  #secondary-button {
+    padding: 19px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+  .c-change .container .audited .audited-flex h3 {
+    font-size: 77px;
+    line-height: 80px;
+  }
+
+  .c-change .container .audited .audited-flex p {
+    font-size: 23px;
+    line-height: 40px;
+  }
+
+  .community .text h4 {
+    font-size: 70px;
+    padding-bottom: 80px;
+  }
+  br {
+    display: none !important;
+  }
+  /* .community .icon-img {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+} */
+  .c-change .container {
+    padding-bottom: 50px !important;
+    padding-top: 50px !important;
+  }
+  .community {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
+  footer .footer .footer-flex {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+  }
+  .navbar .right,
+  .navbar .btn {
+    display: none;
+  }
+  .navbar i {
+    font-size: 30px;
+    display: block;
+    padding-right: 10px;
+  }
+  .error .image {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 786px) {
+  .head-text p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .true .right h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .true .right p {
+    font-size: 18px;
+    line-height: 31px;
+  }
+  .true .right h2 span {
+    padding: 5px;
+  }
+  .why-cont h2:first-child {
+    font-size: 70px;
+  }
+  .why-cont #diff p {
+    font-size: 50px;
+    top: 15px;
+  }
+  .c-change .container .audited .audited-flex h3 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+  .error .image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hero .head-text h1 {
+    font-size: 60px;
+    word-spacing: 6px;
+  }
+  #primary-button {
+    padding: 19px 47px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  #secondary-button {
+    padding: 19px 10px;
+    font-size: 18px;
+    font-weight: 900;
+  }
+  .head-text .btn {
+    margin-top: 49px;
+  }
+  .true .right h2 {
+    font-size: 50px;
+    line-height: 68px;
+  }
+  .true .right p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #primary-button {
+    padding: 19px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-weight: 900;
+    transition: 0.5s;
+  }
+  .why-cont h2:first-child {
+    font-size: 50px;
+    -webkit-text-stroke-width: 3px;
+  }
+  .why-cont #diff p {
+    font-size: 30px;
+    top: 15px;
+  }
+  .why-cont .cards .card1 p:first-child {
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+  }
+  .why-cont .cards .card1 p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  #image {
+    width: 100%;
+  }
+  .c-change .container .audited .audited-flex p {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .c-change .container .audited .audited-flex h3 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+  .community .text h4 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
